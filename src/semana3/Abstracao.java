@@ -7,9 +7,9 @@ package semana3;
  */
 public class Abstracao {
 
-	public abstract class ControleRemoto {
+	public abstract class Controleremoto{
 
-		private boolean ligada;;
+		private boolean ligada;
 		private int mudarcanal;
 		private String volume;
 		private boolean desligartv;
@@ -17,13 +17,13 @@ public class Abstracao {
 		public void ligar() {
 			ligada = true;
 		}
-		public void setligada(boolean ligada) { 
+		public void setligada(boolean ligada ) { 
  
-			this.ligada = ligada; 
+			this.ligada = ligada ; 
 		}
 
-		public boolean getliga() {
-			return ligada;
+		public boolean getliga () {
+			return ligada ;
 
 		}
 
@@ -34,9 +34,9 @@ public class Abstracao {
 		}
 		public void set(int mudarcanal) { 
 
-			this.mudarcanal = mudarcanal; 
+			this.mudarcanal = mudarcanal ; 
 		}
-		public int getmudarcanal() {
+		public int getmudarcanal () {
 
 			return mudarcanal;
 
