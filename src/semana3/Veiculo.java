@@ -13,7 +13,7 @@ public class Veiculo {
 
 	public int qntdPortas(int portas) {
 
-		return 4;
+		return 2;
 
 	}
 

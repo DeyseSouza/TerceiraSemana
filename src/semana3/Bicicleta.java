@@ -1,7 +1,7 @@
 package semana3;
 
 public class Bicicleta {
-	//Implementacao do metodo quantidade de rodas. 
+	
 	 
 	public int qntdRodas(int rodas) { 
 			return 2; 
